@@ -1,0 +1,26 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+h1{
+    color: hsla(200, 100%, 50%, 1.0);
+}
+.startGame{
+    height: 3rem;
+    width:  5rem;
+    background-color: blue;
+    color: goldenrod;
+    font-size: 2rem;
+    padding: 10px;
+    margin: 10px;
+}
+.startGame:hover{
+    color: aqua;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
